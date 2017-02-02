@@ -14,7 +14,7 @@ Other widgets depend on jQuery (most often), React, Angular, or Vue. Hard to see
 * [Half-stars](https://codepen.io/jamesbarnett/pen/vlpkh), even [fluid/fully fractional stars](https://jsfiddle.net/craig_h_411/992o7cq5/) input
 * Read-only/display a given (possibly [fractional](http://codepen.io/Bluetidepro/pen/GkpEa)) rating
 * [Configurable icons](http://auxiliary.github.io/rater) instead of stars, or images/SVGs
-* Clean scalable vector icons for consistent display across devices, instead of images
+* Clean scalable vector icons ([e.g. Font Awesome](http://www.cssscript.com/simple-5-star-rating-system-with-css-and-html-radios/)) for consistent display across devices, instead of images
 * Custom styles for the icons
 * Optional selection result/label (updated on hover or after click)
 * Configurable tooltips and captions for each star value
@@ -27,6 +27,8 @@ Other widgets depend on jQuery (most often), React, Angular, or Vue. Hard to see
 
 ## CSS only implementations
 
+- [dandv's CSS-only properly keyboard-accessible](http://jsbin.com/zejeba/) solution
+- [half stars, clear, not accessible)(https://codepen.io/mrk1989/pen/mLeHJ) - reverse DOM order
 - [Lea Verou's radio buttons (2011)](http://lea.verou.me/2011/08/accessible-star-rating-widget-with-pure-css/) with keyboard accessibility (though buggy - perssing arrow keys goes backwards), and selected stars are offset by a few pixels in Firefox: 
 ![image](https://cloud.githubusercontent.com/assets/33569/22502661/b4e914f0-e822-11e6-9c05-9f9d10cd3035.png)
 - https://css-tricks.com/star-ratings/ - 2012, using `unicode-bidi: bidi-override;`. Mouseover flicker.
@@ -50,17 +52,23 @@ Other widgets depend on jQuery (most often), React, Angular, or Vue. Hard to see
 
 
 ## For API and features reference
-* [Krajee](http://plugins.krajee.com/star-rating)'s full-featured Bootstrap + jQuery star-rating plugin
+* [Krajee](http://plugins.krajee.com/star-rating)'s full-featured Bootstrap + jQuery star-rating plugin: SVG, customizable icons, [fractional rating](http://plugins.krajee.com/star-rating-demo-basic-usage#basic-example-2), RTL support. [Not accessible](https://github.com/kartik-v/bootstrap-star-rating/issues/129).
+* [antenna.io jQuery bar rating](http://antenna.io/demo/jquery-bar-rating/examples/) - great documentation, keyboard accessible via Tab (though not arrows); display but not input fractional stars
 * [rater](http://auxiliary.github.io/rater/) - customizable UTF-8 characters, Font-Awesome icons, or even HTML
 * [awesome-rating](https://github.com/bandraszyk/awesome-rating) - customizable Font-Awesome icons
-* [jQuery + Bootstrap](https://github.com/kartik-v/bootstrap-star-rating); 650+ stars
 * [jQuery RateIt](http://stackoverflow.com/questions/4542883/jquery-star-rating/13176213#13176213)
-* [vue-star-rating](https://www.npmjs.com/package/vue-star-rating)
+* [vue-star-rating](https://github.com/craigh411/vue-star-rating) - half-star rating, fluid rating
 * [SVG-based jQuery plugin](https://github.com/nashio/star-rating-svg/) with good list of features
 * [react](https://github.com/voronianski/react-star-rating-component) - 79 stars; [no color change on hover](https://github.com/voronianski/react-star-rating-component/issues/19)
+* [`<input type="number">`](https://github.com/javiertoledo/bootstrap-rating-input)
+
+
+## Rejected libraries
+* [Adobe Spry](https://adobe.github.io/Spry/samples/rating/RatingSample.html)
+* [many others omitted]
 
 
 ## StackOverflow discussions
 
-* [1](http://stackoverflow.com/questions/1987524/turn-a-number-into-star-rating-display-using-jquery-and-css?rq=1)
-* [2](http://stackoverflow.com/questions/4542883/jquery-star-rating).
+* [jQuery and CSS - display only](http://stackoverflow.com/questions/1987524/turn-a-number-into-star-rating-display-using-jquery-and-css?rq=1)
+* [jQuery star rating plugins](http://stackoverflow.com/questions/4542883/jquery-star-rating)
