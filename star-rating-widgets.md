@@ -46,19 +46,20 @@ Other widgets depend on jQuery (most often), React, Angular, or Vue. Hard to see
 - [juliangruber's](https://github.com/juliangruber/rating); no real commits since 2013, no feature list; JS API
 
 
-## Polymer components
+## Web components
 - PolymerLabs has a [component](https://github.com/PolymerLabs/star-ratings), that depends on `iron-icon`
-- [cvmartinez's component depending on paper-icon](https://github.com/cmartinezv/star-rating)
+- [cvmartinez's component depending on Polymer's paper-icon](https://github.com/cmartinezv/star-rating)
+- [Nevraeka's](https://github.com/Nevraeka/star-rating) - keyboard accessibility, custom # of stars, custom size
 
 
 ## For API and features reference
 * [Krajee](http://plugins.krajee.com/star-rating)'s full-featured Bootstrap + jQuery star-rating plugin: SVG, customizable icons, [fractional rating](http://plugins.krajee.com/star-rating-demo-basic-usage#basic-example-2), RTL support. [Not accessible](https://github.com/kartik-v/bootstrap-star-rating/issues/129).
 * [antenna.io jQuery bar rating](http://antenna.io/demo/jquery-bar-rating/examples/) - great documentation, keyboard accessible via Tab (though not arrows); display but not input fractional stars
-* [rater](http://auxiliary.github.io/rater/) - customizable UTF-8 characters, Font-Awesome icons, or even HTML
+* Auxiliary's [rater](http://auxiliary.github.io/rater/) - customizable UTF-8 characters, Font-Awesome icons, or even HTML; supports half ratings
 * [awesome-rating](https://github.com/bandraszyk/awesome-rating) - customizable Font-Awesome icons
 * [jQuery RateIt](http://stackoverflow.com/questions/4542883/jquery-star-rating/13176213#13176213)
 * [vue-star-rating](https://github.com/craigh411/vue-star-rating) - half-star rating, fluid rating
-* [SVG-based jQuery plugin](https://github.com/nashio/star-rating-svg/) with good list of features
+* [SVG-based jQuery plugin](https://github.com/nashio/star-rating-svg/) with good list of features: different shapes, half stars, read-only mode, onhover and onrating callbacks/events
 * [react](https://github.com/voronianski/react-star-rating-component) - 79 stars; [no color change on hover](https://github.com/voronianski/react-star-rating-component/issues/19)
 * [`<input type="number">`](https://github.com/javiertoledo/bootstrap-rating-input)
 
