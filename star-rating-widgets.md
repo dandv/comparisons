@@ -65,6 +65,7 @@ Other widgets depend on jQuery (most often), React, Angular, or Vue. Hard to see
 
 ## Rejected libraries
 * [Adobe Spry](https://adobe.github.io/Spry/samples/rating/RatingSample.html)
+* [CallMeNick's - nothing special](https://github.com/callmenick/five-star-rating/issues/9), abandoned since 2015
 * [many others omitted]
 
 
