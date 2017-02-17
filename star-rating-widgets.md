@@ -28,7 +28,7 @@ Other widgets depend on jQuery (most often), React, Angular, or Vue. Hard to see
 ## CSS only implementations
 
 - [dandv's CSS-only properly keyboard-accessible](http://jsbin.com/zejeba/) solution
-- [half stars, clear, not accessible)(https://codepen.io/mrk1989/pen/mLeHJ) - reverse DOM order
+- [half stars, clear, not accessible](https://codepen.io/mrk1989/pen/mLeHJ) - reverse DOM order
 - [Lea Verou's radio buttons (2011)](http://lea.verou.me/2011/08/accessible-star-rating-widget-with-pure-css/) with keyboard accessibility (though buggy - perssing arrow keys goes backwards), and selected stars are offset by a few pixels in Firefox: 
 ![image](https://cloud.githubusercontent.com/assets/33569/22502661/b4e914f0-e822-11e6-9c05-9f9d10cd3035.png)
 - https://css-tricks.com/star-ratings/ - 2012, using `unicode-bidi: bidi-override;`. Mouseover flicker.
