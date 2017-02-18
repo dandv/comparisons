@@ -61,7 +61,11 @@ Other widgets depend on jQuery (most often), React, Angular, or Vue. Hard to see
 * [vue-star-rating](https://github.com/craigh411/vue-star-rating) - half-star rating, fluid rating
 * [SVG-based jQuery plugin](https://github.com/nashio/star-rating-svg/) with good list of features: different shapes, half stars, read-only mode, onhover and onrating callbacks/events
 * [react](https://github.com/voronianski/react-star-rating-component) - 79 stars; [no color change on hover](https://github.com/voronianski/react-star-rating-component/issues/19)
+
+### Non-radio button fallback elements (require JS)
 * [`<input type="number">`](https://github.com/javiertoledo/bootstrap-rating-input)
+* [<`input type="range">`](https://codepen.io/catharsis/pen/vquyj) by catharsys
+* [`<input type="range">`](https://gist.github.com/keithchu/1584147#gistcomment-559559) by @keithchu
 
 
 ## Rejected libraries
