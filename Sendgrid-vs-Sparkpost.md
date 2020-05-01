@@ -5,6 +5,7 @@ This is an actual comparison between Sendgrid and Sparpost, after having actuall
 Pros
 + analytics for recipient geography, email clients & devices, mailbox, and browser type
   ![mailbox provider](https://user-images.githubusercontent.com/33569/80805619-a3926d00-8c0c-11ea-9a1d-8a6b3dcf5e56.png)
+  ![geography](https://user-images.githubusercontent.com/33569/80818225-e6613e80-8c26-11ea-9140-6ea3b6284826.png)
 + drag'n'drop visual email template designer (see limitations and issues below)
 + can have multiple versions for a given template, and marking one as "active" for use
 
