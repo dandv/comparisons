@@ -3,7 +3,8 @@ This is an actual comparison between Sendgrid and Sparpost, after having actuall
 # Sendgrid
 
 Pros
-+ drag'n'drop visual email template designer, with limitations
++ drag'n'drop visual email template designer (see limitations and issues below)
++ can have multiple versions for a given template, and marking one as "active" for use
 
 Cons
 - No [CSS inlining](https://github.com/sendgrid/sendgrid-nodejs/issues/199#issuecomment-621934265)
