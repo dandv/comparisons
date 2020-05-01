@@ -1,7 +1,8 @@
 # Comparisons
 
-While building web applications over the years, such as [iDoRecall](https://iDoRecall.com), I've compared alternative solutions for various tasks, related primarily to front-end development. Below are the results.
+While building web applications over the years, I've compared alternative solutions for various tasks, related primarily to front-end development. Below are the results.
 
+* [Sendgrid vs. Sparkpost, a comparison for developers](https://github.com/dandv/comparisons/blob/master/Sendgrid-vs-Sparkpost.md) - May 2020
 * [Comparison of star rating widgets](star-rating-widgets.md) - 2017-Feb
 * [Comparison of JavaScript WYSIWYG editors](JavaScript-WYSIWYG-editors.md) - send PRs to contribute!
 * [Node.JS WebDriver client libraries compared](http://www.slant.co/topics/2814/~what-are-the-best-node-js-selenium-webdriver-client-libraries-bindings) on Slant
