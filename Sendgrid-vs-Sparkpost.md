@@ -40,6 +40,7 @@ Cons:
 - [Template editor has no undo](https://github.com/SparkPost/developers.sparkpost.com/issues/378)
 - [Can't schedule emails more than 72 hours in advance](https://developers.sparkpost.com/api/transmissions/#transmissions-post-schedule-a-transmission).
 - The email Activity doesn't show the body of the sent emails.
+- Their support system is rudimentary and home-grown, basically a contact form. You can't track the status of your tickets online, and the "Support ticket closed" emails are useless (they only mention a case number, which you can't look up anywhere). This is puzzling, when there are plenty of decent ticketing systems (Zendesk, Freshdesk etc.).
 
 Free plan:
 - 100 emails/day
