@@ -57,7 +57,7 @@ Results:
 - [Pen](https://github.com/sofish/pen) (vanilla) - [can't paste images from the clipboard](https://github.com/sofish/pen/issues/151)
 - [textAngular](http://textangular.com/) (Angular), [can't paste images since 2014](https://github.com/fraywing/textAngular/issues/177), tightly coupled with AngularJS, which is a [bad idea](https://ponyfoo.com/articles/why-i-write-plain-javascript-modules)
 - [Hallo.js](http://hallojs.org/) - minimalistic jQueryUI plugin with floating toolbar; [can't paste images](https://github.com/bergie/hallo/issues/234)
-- [SCEditor](http://www.sceditor.com/) - [can't paste images](https://github.com/samclarke/SCEditor/issues/386)
+- [SCEditor](http://www.sceditor.com/) - [can paste images with plugin](https://www.sceditor.com/posts/drag-drop-upload-demo/)
 - [bootstrap3-wysiwyg](http://bootstrap-wysiwyg.github.io/bootstrap3-wysiwyg/) - [can't paste images from the clipboard](https://github.com/bootstrap-wysiwyg/bootstrap3-wysiwyg/issues/143)
 - [Suyati line control](https://github.com/suyati/line-control/), [can't paste images from the clipboard](https://github.com/suyati/line-control/issues/26)
 - [KindEditor](https://github.com/kindsoft/kindeditor/issues/184) - Korean project, can't paste images
